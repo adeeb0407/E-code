@@ -4,6 +4,7 @@ import courseRoutes from './routes/course.js'
 import studentsRoutes from './routes/student.js'
 import trainersRoutes from './routes/trainer.js'
 import sessionsRoutes from './routes/session.js'
+import enrolmentsRoutes from './routes/enrolment.js'
 import db from './config/config.js'
 import session from 'express-session'
 
@@ -29,6 +30,7 @@ app.use('/courses', courseRoutes)
 app.use('/students', studentsRoutes)
 app.use('/trainers', trainersRoutes)
 app.use('/sessions', sessionsRoutes)
+app.use('/enrolments', enrolmentsRoutes)
 
 
 app.use('/', (req, res) => {

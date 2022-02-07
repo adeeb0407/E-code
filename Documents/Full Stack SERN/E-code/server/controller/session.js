@@ -1,5 +1,18 @@
 import db from '../config/config.js'
 
+export const sessionStoredProcedure = (req, res) => {
+    db.query('call fetchSession',
+     (err, result) => {
+        if(err){
+            console.log(err);
+        }else{
+            res.json(result)
+        }
+    })
+}
+
+
+
 export const createSession = (req, res) => {
     
     const {title, session_time, duration, course_id, trainer_id } = req.body
