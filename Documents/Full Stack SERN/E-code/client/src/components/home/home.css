@@ -1,0 +1,43 @@
+
+.home{
+    background-image: linear-gradient(135deg, rgba(22,106,140,0.8) 100%, rgba(9,121,90,0.8) 100%, rgba(0,255,154,0.8) 100%), url('../../images/home.png');
+    padding: 5% 0 8% 15%;
+}
+.home-icon{
+    color : white;
+    font-size: 50px;
+    background-color: #693AE6;
+    padding: 15px;
+    border-radius: 50%;
+}
+.info-home{
+    padding: 5px;
+    color : black;
+}
+.home-intro-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-intro-card span{
+    padding: 5px;
+    word-wrap: normal;
+}
+.text-card-home{
+    margin : 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.home-card-main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FAF6F6;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+}
+.text-card{
+    font-size: 14px;
+}

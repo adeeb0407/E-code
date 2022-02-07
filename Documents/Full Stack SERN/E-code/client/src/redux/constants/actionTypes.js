@@ -1,0 +1,10 @@
+export const CONSTANT_TEMPLATE = 'CONSTANT_TEMPLATE';
+
+export const STUDENT_LOGIN = 'STUDENT_LOGIN';
+export const TRAINER_LOGIN = 'TRAINER_LOGIN';
+export const LOGOUT = 'LOGOUT';
+
+export const TRAINER_FETCH_ALL = 'TRAINER_FETCH_ALL';
+
+export const COURSE_FETCH_ALL = 'COURSE_FETCH_ALL';
+export const COURSE_BY_ID = 'COURSE_BY_ID';
