@@ -27,6 +27,8 @@ Just a Simple `npm install` would get you setup with node js, but Connecting to 
   
   ### ReactJS (Client)
   
-  Just a Simple `npm start` will do the trick for the Client-side
+  Just a Simple `npm install` will do the trick for the Client-side
+  
+  On the Terminal `npm start` to get the client side up and Running.
     
   
