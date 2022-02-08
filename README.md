@@ -18,10 +18,10 @@ In the Backend we have used MYSQL for database and NodeJS with expressJS as the 
 
 Just a Simple `npm install` would get you setup with node js, but Connecting to the database will require you to make a `.env` file with the following variables placed init
     
-    user : `your localhost username (usally is root)`
-    host : localhost
-    password : `your localhost password`
-    database : learningdev_school
+    user = `your localhost username (usally is root)`
+    host = localhost
+    password = `your localhost password`
+    database = learningdev_school
     
   And your Server is setup and Good to go ... `npm start` on the terminal and your server will be Live
   
